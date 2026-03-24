@@ -4,7 +4,7 @@
        style="width: 100%; max-width: 100%; height: auto; border-radius: 8px;">
 </div>
 
-# Taurox — A Decentralized Hedge Fund Powered by Autonomous AI Agents
+# Taurox: A Decentralized Hedge Fund Powered by Autonomous AI Agents
 
 **Taurox** is a decentralized, non-custodial trading protocol that functions as a true **on-chain hedge fund**. 
 
@@ -16,9 +16,15 @@ The protocol evaluates every agent’s real performance, assigns and adjusts cap
 
 Autonomous trading agents are proliferating rapidly. Thousands of developers, quants, and AI researchers are building sophisticated strategies, but most lack access to meaningful capital. At the same time, capital holders struggle to discover, evaluate, and safely allocate to high-quality agents.
 
-Traditional hedge funds try to solve this through intermediaries (fund-of-funds and placement agents), but they charge expensive management and placement fees (often 1–5%), impose high minimum investments, and require accreditation — effectively locking out most participants.
+Traditional hedge funds try to solve this through intermediaries (fund-of-funds and placement agents), but they charge expensive management and placement fees (often 1–5%), impose high minimum investments, and require accreditation, effectively locking out most participants.
 
 **Taurox** removes these intermediaries entirely. It replaces them with an algorithmic, fully on-chain allocation system that connects capital and strategies efficiently, fairly, and without gatekeepers.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tauroxio/Tauroxio.github.io/refs/heads/main/access-wall.gif" 
+       alt="Taurox Banner" 
+       style="width: 100%; max-width: 100%; height: auto; border-radius: 8px;">
+</div>
 
 ### How Taurox Works
 
@@ -30,17 +36,23 @@ The protocol rigorously measures risk-adjusted returns, drawdown behavior, and s
 
 Once live, the system continuously re-allocates capital: high-performing agents (on a risk-adjusted basis) receive larger allocations, while underperforming agents see their capital reduced or revoked. This creates powerful natural selection and exceptional diversification across uncorrelated strategies.
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tauroxio/Tauroxio.github.io/refs/heads/main/capital-flow.gif" 
+       alt="Taurox Banner" 
+       style="width: 100%; max-width: 100%; height: auto; border-radius: 8px;">
+</div>
+
 ### Risk Management & Diversification
 
 Taurox maintains strict safety boundaries for every agent, including capital caps, stop-loss limits, and drawdown circuit breakers. 
 
-A unique framework called **KYA (Know Your Agent)** classifies each agent by strategy type — such as trend following, arbitrage, sentiment-based, market-making, and others. This classification helps the protocol maintain broad diversification and quickly flag any agent that drifts from its declared strategy.
+A unique framework called **KYA (Know Your Agent)** classifies each agent by strategy type, such as trend following, arbitrage, sentiment-based, market-making, and others. This classification helps the protocol maintain broad diversification and quickly flag any agent that drifts from its declared strategy.
 
 ### Execution & Non-Custodial Security
 
 Agents primarily execute trades through on-chain decentralized exchanges using the protocol’s secure vault contracts. User funds never leave smart contracts, preserving full non-custodial guarantees.
 
-For strategies that require centralized exchange liquidity or derivatives, the protocol uses trade-only sub-accounts with zero withdrawal permissions. Only stakers can withdraw their share — and only through the official withdrawal contract. No agent or external party can ever pull funds.
+For strategies that require centralized exchange liquidity or derivatives, the protocol uses trade-only sub-accounts with zero withdrawal permissions. Only stakers can withdraw their share and only through the official withdrawal contract. No agent or external party can ever pull funds.
 
 ### Profit Distribution & Incentive Alignment
 
@@ -52,7 +64,13 @@ Agent creators earn performance fees only from the profits their agent actually 
 
 **TAUX** is the native utility token that powers the entire ecosystem. 
 
-To stake into the pool, participants must hold TAUX proportional to the amount they wish to deposit. This creates a direct link between demand for pool access and demand for the token. Performance fees are converted into TAUX, and a fixed percentage of all collected fees is permanently burned — increasing scarcity as the protocol grows.
+To stake into the pool, participants must hold TAUX proportional to the amount they wish to deposit. This creates a direct link between demand for pool access and demand for the token. Performance fees are converted into TAUX, and a fixed percentage of all collected fees is permanently burned increasing scarcity as the protocol grows.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tauroxio/Tauroxio.github.io/refs/heads/main/pool-scaling.gif" 
+       alt="Taurox Banner" 
+       style="width: 100%; max-width: 100%; height: auto; border-radius: 8px;">
+</div>
 
 ### Why Taurox Matters
 
@@ -81,5 +99,5 @@ To explore the full protocol, read the complete documentation, or join the presa
 ---
 
 <div align="center">
-  © 2026 Taurox Finance. All rights reserved.
+  © 2026 Taurox All rights reserved.
 </div>
